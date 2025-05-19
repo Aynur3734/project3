@@ -1,0 +1,32 @@
+#third {
+    background: $lightGrey;
+    padding: 100px 0;
+    .container {
+        @include center($justify:space-between,$align:flex-start);
+        .context {
+            width: 45%;
+            margin-right: 5%;
+            h3 {
+                font-size: 1.2rem;
+            }
+            p {
+                margin: 20px 0 10px;
+            }
+            button {
+                background: $primaryColor;
+                box-shadow: 1px 2px 5px #3f3f3f;
+                padding: 10px;
+                @include center;
+                img {
+                    margin-right: 3px;
+                }
+            }
+        }
+        .image {
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

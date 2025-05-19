@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: $secondaryColor;
+}
+body {
+    overflow-x: hidden;
+}
+h1,h2,h3 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    &:hover {
+        opacity: .8;
+    }
+    &:active {
+        scale: .95;
+    }
+}

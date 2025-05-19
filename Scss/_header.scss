@@ -1,0 +1,33 @@
+nav {
+    background: $primaryColor;
+    @include center($justify: space-between);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 10px 0px;
+    .container div {
+        @include center($justify:space-between);
+    }
+    h1 {
+        font-size: 1.5rem;
+        padding: 10px 0;
+    }
+
+    ul {
+        @include center;
+        li {
+            @include center;
+            img {
+                margin-right: 2px;
+            }
+            a {
+                padding: 10px;
+            }
+            &:hover {
+                background-color: $lightGrey;
+            }
+        }
+    }
+
+}

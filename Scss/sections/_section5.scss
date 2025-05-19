@@ -1,0 +1,37 @@
+#fifth {
+    height: 30vh;
+    background: $grey;
+    div {
+        h1 {
+            color:$primaryColor;
+            font-size: 2rem;
+            margin: 5px;
+        }
+        h2 {
+            color: $primaryColor;
+        }
+        @include center($justify:space-around);
+        .parent1 {
+            @include center(column);
+            padding: 50px;
+            margin: 10px;
+        }
+        .parent2 {
+            @include center(column);
+            padding: 50px;
+            margin: 10px;
+        }
+        .parent3 {
+            @include center(column);
+            padding: 50px;
+            margin: 10px;
+        }
+        .parent4 {
+            @include center(column);
+            padding: 50px;
+            margin: 10px;
+        }
+        
+    }
+       
+}

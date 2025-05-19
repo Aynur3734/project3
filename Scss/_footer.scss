@@ -1,0 +1,33 @@
+.footer {
+    .center {
+        @include center(column);
+        height: 200px;
+        background-color: $secondaryColor;
+
+        button {
+            img {
+                margin-right: 10px;
+                scale: 1;
+            }
+
+            background: $primaryColor;
+            padding: 10px;
+            font-size: 600;
+        }
+
+        #img {
+            margin: 20px;
+            background: $primaryColor;
+        }
+
+        p {
+            font-size: 400;
+            color: $primaryColor;
+
+            span {
+                text-decoration: underline;
+                color: $primaryColor;
+            }
+        }
+    }
+}

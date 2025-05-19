@@ -1,0 +1,55 @@
+#eighth {
+    padding: 100px 0;
+
+    h1 {
+        color: $primaryColor;
+    }
+
+    p {
+        color: $primaryColor;
+    }
+
+    background: $grey;
+
+    .eighth_container {
+        margin: 50px 0 0;
+        @include center($justify: space-around);
+        font-size: 0.8rem;
+
+        .eighth_main {
+            width: 300px;
+            div {
+                padding: 10px;
+                background: $primaryColor;
+                text-align: center;
+                border-bottom: 1px solid $lightGrey;
+            }
+            
+            .eighth_bg1 {
+                padding: 20px;
+                background: $secondaryColor;
+                color: $primaryColor;
+                font-size: 1.5rem;
+                
+            }
+            .eighth_bg2 {
+                background: $lightGrey;
+                font-size: 1.5rem;
+                button {
+                   color: $primaryColor;
+                   background: $secondaryColor;
+                   padding: 10px;
+                }
+            }
+        }
+        #pro {
+            scale: 1.1;
+            .eighth_bg1 {
+                background: $red;
+            }
+        }
+
+
+    }
+
+}

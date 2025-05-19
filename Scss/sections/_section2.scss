@@ -1,0 +1,13 @@
+#second{
+    padding: 100px 0;
+    .card_con {
+        div {
+            @include center(column);
+            p:nth-child(3){
+                margin-top: 10px;
+                text-align: center;
+            }
+        }
+
+    }
+}

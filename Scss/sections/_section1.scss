@@ -1,0 +1,26 @@
+#first {
+    height: 100vh;
+    background-image: url(./assets/mac.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @include center(column,$align:flex-start);
+    
+    h1 {
+        color: $primaryColor;
+        font-size: 3rem;
+    }
+    p {
+        color: $primaryColor;
+        margin: 40px 0 30px;
+    }
+    button {
+        padding: 10px;
+        border: none;
+        background-color: $lightGrey;
+        opacity: .8;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

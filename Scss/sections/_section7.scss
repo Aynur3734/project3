@@ -1,0 +1,47 @@
+#seventh {
+    background: $lightGrey;
+    padding: 100px 0;
+    
+    .container {
+        @include center($align:flex-start, $justify: space-between);
+        .seven_FIRST {
+            width: 45%;
+
+            h2 {
+                margin: 0px 0 20px;
+                font-size: 2rem;
+            }
+
+            p {
+                margin: 10px 0;
+            }
+        }
+        .seven_SECOND {
+            width: 50%;
+            .seven_img {
+                margin-bottom: 20px;
+                @include center($justify:flex-start);
+                img {
+                    margin-right: 10px;
+                }
+                h3 {
+                    letter-spacing: 5px;
+                }
+            }
+            .seven_90 {
+                height: 30px;
+                width: 100%;
+                background: rgb(196 196 196);
+                margin-bottom: 20px;
+                div {
+                    height: 100%;
+                    background: $grey;
+                    color: $primaryColor;
+                    @include center;
+                }
+            }
+        }
+    }
+}
+
+// flex-start, flex-end
